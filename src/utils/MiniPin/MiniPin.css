@@ -1,0 +1,17 @@
+#MiniPin {
+    width: 100%;
+}
+.pin-col {
+    overflow: hidden;
+}
+
+.pin-box {
+    max-height: 5em;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+.react-icons {
+  vertical-align: middle;
+}
+.drop-shadow {
+    box-shadow: inset 0 -8px 4px -4px #ddd;
+}
+.searchBar{
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 300px; /* Need a specific value to work */
+}
+.maps-container{
+  left: 2%;
+  max-height: 75vh;
+  overflow: scroll;
+  padding: 10px;
+}
+#left-column{
+  padding: 0px;
+}
+.drag-container{
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 200px; /* Need a specific value to work */
+  bottom: 1vh;
+}
+.sticky-right{
+	   position:absolute;
+     bottom:0;
+     right:0;
+     background-color: white;
+     opacity: .7;
+     padding: 20px;
+     border-radius: 20px 0px 0px 0px;
+}
+.map-query-control{
+  position: relative;
+  padding: 20px;
+  height: 10vh;
+  font-size: 2em;
+}

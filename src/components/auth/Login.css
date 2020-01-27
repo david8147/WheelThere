@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.field {
+  width: 30vw;
+  margin: 1vh;
+}
